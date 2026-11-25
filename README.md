@@ -42,11 +42,24 @@ El prototipo inicial en Tinkercad permite:
 
 Actualmente se encuentra en etapa de desarrollo y pruebas iniciales en Tinkercad:
 
-Prototipo en Tinkercad
+### Simulación en Tinkercad
 
-Durante el desarrollo inicial se utilizó una pantalla LCD 1602 para visualizar los caracteres decodificados. Su incorporación fue temporal y tuvo como objetivo facilitar las pruebas del circuito.
+Se utilizó Tinkercad para realizar las primeras pruebas del circuito y comprobar el funcionamiento básico del traductor Morse.
 
-En el montaje físico, la visualización se realizará mediante la comunicación Serial con la computadora y, posteriormente, a través de una interfaz gráfica desarrollada en Processing. Por lo tanto, la LCD no forma parte del montaje físico definitivo.
+La versión de simulación incluye:
+- Lectura del botón Morse para registrar puntos y rayas.
+- Decodificación de caracteres mediante una tabla de equivalencias.
+- Botón para ingresar espacios.
+- Indicador LED durante la pulsación del botón Morse.
+- Visualización del mensaje recibido mediante una pantalla LCD 1602.
+
+**Diferencias con la versión física:**
+
+El código de Tinkercad es más sencillo, ya que el entorno de simulación no reproduce completamente las condiciones eléctricas de un circuito real, por eso no hay mecanicas antirebote.
+
+La versión física incorpora las mejoras necesarias para trabajar con los componentes reales y se comunica con Processing mediante el puerto serie. Además, utiliza un buzzer pasivo para reproducir los caracteres enviados desde la computadora.
+
+La pantalla LCD se utilizó durante las pruebas de simulación, pero no forma parte del montaje físico definitivo.
 
 https://www.tinkercad.com/things/fJj2nTK7r6Q-prototipo-base-code-morse-info-2?sharecode=z52Q0O8Aea-w10cjqUkd_ehLvOKU1zZu55Wkhw3r3fk (Link para verlo en tinkercad).
 
