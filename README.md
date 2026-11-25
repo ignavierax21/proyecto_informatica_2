@@ -56,6 +56,7 @@ La versión de simulación incluye:
 **Diferencias con la versión física:**
 
 El código de Tinkercad es más sencillo, ya que el entorno de simulación no reproduce completamente las condiciones eléctricas de un circuito real, por eso no hay mecanicas antirebote.
+El LED funciona solo cuando se pulsa el botón del morse, el botón de los espacios no le afecta pero en el montaje físico ambos afectaran al LED.
 
 La versión física incorpora las mejoras necesarias para trabajar con los componentes reales y se comunica con Processing mediante el puerto serie. Además, utiliza un buzzer pasivo para reproducir los caracteres enviados desde la computadora.
 
